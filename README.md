@@ -1,5 +1,7 @@
 # Earnings Call Natural Language Processing Analysis
 
+https://docs.google.com/presentation/d/1BW0P8s2vFJ-a-9t33g96B46MUC_QdyPPRtIu565RzWQ/edit#slide=id.gc6f80d1ff_0_0
+
 ### Goal:
 To use Natural Language Processing to analyze earning call transcripts and consequent ticker quarter growth to predict performance as compared to respective index. 
 
