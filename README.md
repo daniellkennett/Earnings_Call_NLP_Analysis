@@ -1,23 +1,5 @@
 # Earnings Call Natural Language Processing Analysis
 
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Data.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Flesch.png?raw=true)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Gunning%20Fog.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Lexicon_measurements.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Metric.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/ROC.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Ratio.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/SMOG.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Sent.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Sim2.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Simulations.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Ticker%20trade%20chart.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/correlmatrix.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/more%20sentimental.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/sentimental%20data.png)
-![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/tfidf.png)
-
-
 
 
 
@@ -61,21 +43,41 @@ https://financialmodelingprep.com/api/v3/earning_call_transcript/AAPL?quarter=3&
 
 * yFinance for stock data
 
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Data.png)
+
 # Feature Engineering
 
 ### 1. Language Measurements
 * Felsch-Kincaid : 100 = super ez, 0 = Difficult. 
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Flesch.png?raw=true)
 * Gunning Fog : Grade level measurement for shorter passages. 
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Gunning%20Fog.png)
 * SMOG: Grade level measurement for longer passages
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/SMOG.png)
+
+
+
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Lexicon_measurements.png)
+
+
 ### 2. Tf-Idf
 * Top 1000 features from transcripts
 * Included 2 ngrams
+
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/tfidf.png)
 
 ### 3. Loughran McDonald Master Dictionary
 * Loughran McDonald is a professor of accounting and finance at University of Notre Dame. Built a dictionary of words and scores based off of words in company earning statements 
 * Sentimental Analysis: Positive, negative, superfluous, uncertainty, litigious
 
+
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Sent.png)
+
 # Random Forest Classifier
+
+
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/ROC.png)
+
    RF = RandomForestClassifier(bootstrap= True, 
 						max_depth= 4, 
 						min_samples_leaf= 35,
@@ -98,6 +100,9 @@ Result: 0.0097
 Or
 
 Ticker outperformed VGT by 1% over the quarter. 
+
+
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Sim2.png)
 
 # Takeaways
 * The data was not perfect. The Transcripts have the operator, questioners, and chief officers responses recorded in each article. The model could be improved by filtering out non-business member speakers.
