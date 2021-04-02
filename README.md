@@ -44,11 +44,11 @@ https://financialmodelingprep.com/api/v3/earning_call_transcript/AAPL?quarter=3&
 * Felsch-Kincaid : 100 = super ez, 0 = Difficult. 
 * Gunning Fog : Grade level measurement for shorter passages. 
 * SMOG: Grade level measurement for longer passages
-### Tf-Idf
+### 2. Tf-Idf
 * Top 1000 features from transcripts
 * Included 2 ngrams
 
-### Loughran McDonald Master Dictionary
+### 3. Loughran McDonald Master Dictionary
 * Loughran McDonald is a professor of accounting and finance at University of Notre Dame. Built a dictionary of words and scores based off of words in company earning statements 
 * Sentimental Analysis: Positive, negative, superfluous, uncertainty, litigious
 
