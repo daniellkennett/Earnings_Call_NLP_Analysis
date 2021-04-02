@@ -1,5 +1,26 @@
 # Earnings Call Natural Language Processing Analysis
 
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Data.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Flesch.png?raw=true)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Gunning%20Fog.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Lexicon_measurements.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Metric.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/ROC.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Ratio.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/SMOG.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Sent.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Sim2.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Simulations.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/Ticker%20trade%20chart.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/correlmatrix.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/more%20sentimental.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/sentimental%20data.png)
+![GME](https://github.com/daniellkennett/Earnings_Call_NLP_Analysis/blob/main/images/tfidf.png)
+
+
+
+
+
 https://docs.google.com/presentation/d/1BW0P8s2vFJ-a-9t33g96B46MUC_QdyPPRtIu565RzWQ/edit#slide=id.gc6f80d1ff_0_0
 
 ### Goal:
